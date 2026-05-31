@@ -28,3 +28,7 @@ print(torch.ones((2, 4)))
 # to have random number
 print(np.random.random((2, 4)))
 print(torch.rand((2, 4)))
+
+# -----
+print(arr.dtype, arr.device, arr.shape)
+print(tensor.dtype, tensor.device, tensor.shape)

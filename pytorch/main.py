@@ -32,3 +32,5 @@ print(torch.rand((2, 4)))
 # -----
 print(arr.dtype, arr.device, arr.shape)
 print(tensor.dtype, tensor.device, tensor.shape)
+# use gpu
+print(tensor.to("cuda"))

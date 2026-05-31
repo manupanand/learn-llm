@@ -11,3 +11,6 @@ print(torch.cuda.device(0))  # get the device
 # we can use numpy -numpy only run on CPU
 arr = np.array([[1, 2, 3], [4, 5, 6]])
 print(arr)
+# pytorch
+# tensor
+tensor = torch.Tensor([[1, 2, 3], [4, 5, 6]])

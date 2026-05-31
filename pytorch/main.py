@@ -17,5 +17,11 @@ tensor = torch.Tensor([[1, 2, 3], [4, 5, 6]])
 print(tensor)
 print(arr * 5)
 print(tensor * 5)  # multiply each element
-print(np.sum())  # sum of all elements
+print(arr.sum())  # sum of all elements
 print(tensor.sum())
+# create tensor from numpy array
+tensor = torch.from_numpy(arr)
+print(tensor)
+# elements with ones
+print(np.ones())
+print(torch.ones())

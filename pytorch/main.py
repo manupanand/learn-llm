@@ -23,5 +23,5 @@ print(tensor.sum())
 tensor = torch.from_numpy(arr)
 print(tensor)
 # elements with ones
-print(np.ones(2, 4))
-print(torch.ones(2, 4))
+print(np.ones((2, 4)))
+print(torch.ones((2, 4)))

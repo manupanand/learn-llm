@@ -15,7 +15,7 @@ print(arr)
 # tensor
 tensor = torch.Tensor([[1, 2, 3], [4, 5, 6]])
 print(tensor)
-print(np * 5)
+print(arr * 5)
 print(tensor * 5)  # multiply each element
 print(np.sum())  # sum of all elements
 print(tensor.sum())
